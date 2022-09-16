@@ -54,8 +54,44 @@ sap.ui.define([
             oItemTemplate1.bindProperty("text", "Status");
             opt1.bindItems("/status", oItemTemplate1);
         },
-        onSubmit: function() {
-            console.log('success')
+        onSubmit: function() {var nama =  SAPUI.GetCore(this.createId("tfFirst")).getValue()
+            var tengah =  SAPUI.GetCore(this.createId("tfMiddle")).getValue()
+            var belakang =  SAPUI.GetCore(this.createId("tfLast")).getValue()
+            var kota =  SAPUI.GetCore(this.createId("tfCity")).getValue()
+            var tanggal =  SAPUI.GetCore(this.createId("tfDate")).getValue()
+            var tahun =  SAPUI.GetCore(this.createId("tfDate")).getDateValue().getFullYear()
+            var asal =  SAPUI.GetCore(this.createId("tfAsal")).getValue()
+            var option =  SAPUI.GetCore(this.createId("option")).getSelectedItem().getText()
+            var saudara = SAPUI.GetCore(this.createId("rdYes"))
+            var sibling = "0"
+
+            if (saudara.getSelected()) {
+                var many = SAPUI.GetCore(this.createId("tfJml")).getValue()
+                sibling = many
+            } else {
+                sibling = "0"
+            }
+
+            var getUmur = new Date().getFullYear() - tahun
+
+            var labelRlt = SAPUI.GetCore(this.createId('labelRlt'))
+            var lblNama = SAPUI.GetCore(this.createId('lblNama'))
+            var lblLahir = SAPUI.GetCore(this.createId('lblLahir'))
+            var lblSibling = SAPUI.GetCore(this.createId('lblSibling'))
+            var lblTbl = SAPUI.GetCore(this.createId('lblTbl'))
+            var lblStatus = SAPUI.GetCore(this.createId('lblStatus'))
+          
+            labelRlt.setText("Halo semuanya, Apakabar")
+            lblNama.setText("Perkenalkan namaku " +nama+ " " +tengah+" " +belakang+ "")
+            lblLahir.setText("Aku lahir di Kota " +kota+ ", Tanggal " +tanggal+". Yaaa kira-kira umurku saat ini " +getUmur+ "")
+            lblTbl.setText("Izinkan aku untuk menceritakan riwayat pendidikanku disini.")
+            if (sibling > 0) {
+                lblSibling.setText("Aku dibesarkan bersama dengan ke-" + sibling + " dirumahku, yaitu di kota " + asal + "" )
+            } else {
+                lblSibling.setText("Aku merupakan anak pertama dan terakhir dari orang tuaku.")
+            }
+
+            lblStatus.setText("Untuk statusku saat ini yaiut " + option)
         }
     })    
 })

@@ -59,8 +59,6 @@ sap.ui.jsview("projectapp.System.Login.Home1", {
         // var optionTwo = SAP.ComboBox(this.createId("optTwo"), "", "Belum Kawin")
         var buttonSubmit = SAPUI.Button(this.createId("buttonSbt"), "Generate My Bio");
 
-        //TAB CONTAINER
-       
         var mtr1 = SAPUI.Matrix("", "100%", true, [], 3).addStyleClass("mtr1");
         mtr1.createRow(labelName1, labelMid, labelLast);
         mtr1.createRow(labelName1eng, labelMideng, labelLasteng);
@@ -91,10 +89,29 @@ sap.ui.jsview("projectapp.System.Login.Home1", {
         mtr1.createRow(buttonSubmit)
 
         var TabContainer = SAPUI.TabContainerR(this.createId("container"), "100px", "100px", 0)
-        var tab1 = SAPUI.TabContainerRitem(this.createId("tab1"), "Home 1")
-        var tab2 = SAPUI.TabContainerRitem(this.createId("tab2"), "Home 2")
+        var tab1 = SAPUI.TabContainerRitem(this.createId("tab1"), "Fill Data")
+        var tab2 = SAPUI.TabContainerRitem(this.createId("tab2"), "Story")
+
+         //home 2 (Result)
+        var mtrResult = SAPUI.Matrix("", "100%", true, [], 0).addStyleClass("mtr1")
+        var labelRlt = SAPUI.Label(this.createId("labelRlt"), "Harap untuk mengisi form !").addStyleClass("result")
+        var lblNama = SAPUI.Label(this.createId("lblNama"), "")
+        var lblLahir = SAPUI.Label(this.createId("lblLahir"), "")
+        var lblSibling = SAPUI.Label(this.createId("lblSibling"), "")
+        var lblTbl = SAPUI.Label(this.createId("lblTbl"), "")
+        var lblStatus = SAPUI.Label(this.createId("lblStatus"), "")
+
+        mtrResult.createRow(labelRlt)
+        mtrResult.createRow(lblNama)
+        mtrResult.createRow(lblLahir)
+        mtrResult.createRow(lblSibling)
+        mtrResult.createRow("")
+        mtrResult.createRow(lblTbl)
+        mtrResult.createRow(lblStatus)
+         //END home 2 (Result)
         
         tab1.addContent(mtr1)
+        tab2.addContent(mtrResult)
         TabContainer.addItem(tab1)
         TabContainer.addItem(tab2)
 
@@ -104,33 +121,20 @@ sap.ui.jsview("projectapp.System.Login.Home1", {
 
         dialog.addContent(btnDialog)
         dialog.addContent(btnDialogTwo)
-
-        //event
-        TabContainer.attachItemSelect(
-            function () {
-                // if (TabContainer.getSelectedItem()=='idHome1--tab1'){
-                //     // SAPUI.Route("Home1");
-                //     console.log('success')
-                //     TabContainer.setSelectedItem("idHome1--tab1")
-                // }
-                // else if (TabContainer.getSelectedItem() == 'idHome--tab2') {
-                //     console.log('success')
-                //     TabContainer.setSelectedItem("idHome1--tab2")
-                //     // SAPUI.Route("Home2");
-                // }
-            console.log(TabContainer.getSelectedItem())
-            }
-        )
+        
+        // EVENT 
         buttonSubmit.attachPress(
             function(event) {
                 // oController.onSubmit()
                 dialog.open()
+                console.log(new Date().getFullYear())
             }
         )
         btnDialog.attachPress(
             function(){
                 oController.onSubmit()
-                dialogSubmit.close()
+                dialog.close()
+                TabContainer.setSelectedItem(tab2)
             }
         )
         btnDialogTwo.attachPress(
