@@ -1,0 +1,25 @@
+.fe-text {
+    color: #2D9CDB;
+    font-family: arial;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.wc-text {
+    margin-top: 7rem;
+    color: gray
+}
+
+.btn-primary {
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 100px;
+}
+
+img {
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 33rem;
+    height: 30rem;
+}

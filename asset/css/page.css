@@ -1,0 +1,1007 @@
+/*Common Styling*/
+
+.font-SizeS{
+    font-size: 0.7rem;
+}
+
+.font-SizeM{
+    font-size: 0.8rem;
+}
+
+.font-transformUpper{
+    text-transform: uppercase !important; 
+}
+
+.font-transformLower{
+    text-transform: lowercase !important; 
+}
+
+.colorRed{
+    color: #c75a5a !important;
+}
+
+.colorGrey{
+    color: #6a6d70 !important;
+}
+
+.margin-top0{
+    margin-top: 0px !important;
+}
+.margin-top10{
+    margin-top: 10px;
+}
+
+.margin-top20{
+    margin-top: 20px;
+}
+
+.margin-top30{
+    margin-top: 30px;
+}
+
+.margin-bottom10{
+    margin-bottom: 10px;
+}
+
+.margin-bottom20{
+    margin-bottom: 20px;
+}
+
+.margin-bottom30{
+    margin-bottom: 30px;
+}
+
+.margin-left10{
+    margin-left: 10px;
+}
+
+.margin-right10{
+    margin-right: 10px;
+}
+
+.margin10{
+    margin: 10px 10px 10px 10px;
+}
+.padding-top10{
+    padding-top: 10px;
+}
+
+.padding-bottom10{
+    padding-bottom: 10px;
+}
+
+.padding-left10{
+    padding-left: 10px;
+}
+
+.padding-right10{
+    padding-right: 10px;
+}
+
+.padding10{
+    padding: 10px 10px 10px 10px;
+}
+
+.borderBottom{
+    border-bottom: 1px solid #a8a8a8;
+}
+
+.center-itemPopOver{
+    /* align-items: center !important; */
+    transform: translate(115%, 0%) !important;
+}
+
+.borderBottomPopOver{
+    background-color: #a8a8a8;
+    /* border-bottom: 1px solid #a8a8a8; */
+}
+
+.align-center{
+    text-align: center !important;
+}
+
+.vertical-align-top{
+    vertical-align: top !important;
+}
+
+.vertical-align-middle{
+    vertical-align: middle !important;
+}
+/*------------------*/
+
+.tileStyle{
+    margin-bottom: 5px !important;
+    margin-right: 10px !important;
+}
+
+/* SECTION LOGIN */
+div.login-flexbox {
+    /* background-color: #f9fcff;
+    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%); */
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 0.5em;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+div.title-img {
+    padding-bottom: 2rem !important;
+}
+
+#title-text {
+    font-size: x-large !important;
+}
+
+#frmLogin--lblTitlehrdweb-bdi {
+    font-size: x-large !important;
+}
+
+div.login-flexbox>div:nth-child(3) {
+    width: 100% !important;
+}
+
+div.login-flexbox>div:nth-child(4) {
+    align-self: flex-end;
+}
+
+div.outer-container {
+    background: #feba31;
+    /* background: #6ecde0; */
+    background: -webkit-linear-gradient(to right, #feba31, #ffa120);
+    /* background: linear-gradient(to right, #feba31, #ffa120); */
+    background: linear-gradient(to right, #6ecde0, #4bd6f2);
+    opacity: 1;
+    animation-name: fadeInOpacity2;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+div.login-input>div {
+    border-radius: 0.5em;
+}
+
+.bottom-logo-grid>div {
+    padding-top: 2rem
+}
+
+button.login-button {
+    font-size: large;
+    width: 100%;
+    background-color: rgb(0, 61, 105) !important;
+    color: #F3F3F3 !important;
+    height: 2em !important;
+    border-radius: 5px 5px 5px 5px !important;
+    border-width: 0px !important;
+
+}
+
+button.login-button:hover {
+    opacity: 0.8;
+}
+
+button.login-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.link-forgot {
+    font-size: 0.8rem !important
+}
+
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+        margin-bottom: 50px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-bottom: 0px;
+    }
+}
+
+@keyframes fadeInOpacity2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.sapMNavItem,
+.sapMNavItem.sapMPage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    background: white;
+}
+
+/* !SECTION */
+
+/* SECTION Dashboard */
+
+
+
+/* !SECTION */
+
+/* SECTION Label, Header Panel */
+.sapUiLbl {
+    font-size: 13px !important;
+}
+
+.sapMPanelHdr {
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+    background-color: #fafafa;
+    /* border-bottom: 1px solid #3e617d !important; */
+}
+
+/* !SECTION */
+
+/* SECTION Content */
+.ErrorLabelStyle {
+    color: red;
+    font-style: italic;
+    font-size: smaller !important;
+}
+
+
+/* !SECTION */
+
+/* SECTION Content */
+/* menyesuaikan posisi di TCODE PFCG */
+
+.Tabdescription1 tbody tr td {
+    vertical-align: top !important;
+}
+
+/* !SECTION */
+
+/* SECTION Content */
+/* Style panel*/
+.h100{
+    height: 100% !important;
+}
+/* Style panel dalam dialog */
+
+.PanelDialog .sapMPanelHdr{
+    background-color:#D9D9D9;
+}
+
+.idSU01_01--pnlPassword-content{
+    background-color: white;
+}
+
+.dialogImage {
+    margin-left: -10px;
+    margin-top: -10px;
+    width: calc(100% + 20px) !important;
+}
+
+.noBorder {
+    border : 0px solid #FFF;
+}
+
+.btnError{
+    background-color: rgb(218, 167, 0) !important;
+    border: 0px !important;
+    color: white !important;
+}
+
+.btnSuccess{
+    background-color: rgb(0, 156, 218) !important;
+    border: 0px !important;
+    color: white !important;
+}
+
+/* Style tiles dalam dashboard*/
+.sapMGT.OneByOne{
+    width: 15rem;
+    height: 5rem;
+}
+
+.sapMGT:active {
+    box-shadow: 0 1px rgb(173, 173, 173) !important;
+    transform: translateY(2px) !important;
+}
+
+.sapMPanelContent{
+    overflow: hidden;
+}
+
+.top td{
+    vertical-align: top !important;
+}
+
+/* !SECTION */
+
+/* Tcode SCAL_02 dialog Create/Change Public Holiday: Fixed Dates 
+    Menyesuaikan hright radio button dengan valuHelp
+*/
+/* =========================================================================== */
+#idSCAL_02--rdbTypeFix-0,
+#idSCAL_02--rdbTypeFix-1,
+#idSCAL_02--rdbTypeFix-2,
+#idSCAL_02--rdbTypeFix-3,
+#idSCAL_02--rdbTypeFix-4,
+#idSCAL_02--rdbTypeFloat-0,
+#idSCAL_02--rdbTypeFloat-1,
+#idSCAL_02--rdbTypeFloat-2,
+#idSCAL_02--rdbTypeFloat-3,
+#idSCAL_02--rdbTypeFloat-4 {
+    height: 48px !important;
+}
+
+div#idSCAL_02--pnlGuaranteed-content>table#idSCAL_02--mtrGuaranteed>tbody>tr#__row13>td#__cell18.sapUiMltPadRight.sapUiMltCell {
+    vertical-align: top !important;
+    padding: 6px 4px 0px 0px !important;
+}
+
+div#idSCAL_02--pnlGuaranteedFloating-content>table#idSCAL_02--mtrGuaranteedFloating>tbody>tr#__row13>td#__cell18.sapUiMltPadRight.sapUiMltCell {
+    vertical-align: top !important;
+    padding: 6px 4px 0px 0px !important;
+}
+
+div#idSCAL_02--pnlGuaranteed-content>table#idSCAL_02--mtrGuaranteed>tbody>tr#__row13>td#__cell19>table#idSCAL_02--mtrGuaranteedSide>tbody>tr#__row8>td#__cell13.sapUiMltPadRight.sapUiMltCell {
+    padding: 18px !important;
+}
+
+div#idSCAL_02--pnlGuaranteedFloating-content>table#idSCAL_02--mtrGuaranteedFloating>tbody>tr#__row25>td#__cell38>table#idSCAL_02--mtrGuaranteedSideFloating>tbody>tr#__row20>td#__cell32.sapUiMltPadRight.sapUiMltCell {
+    padding: 12px !important;
+}
+/* =========================================================================== */
+
+/*
+SCAL_06 PANEL PUBLIC HOLIDAYS
+*/
+
+div#idSCAL_06--pnlMaster-content>table#idSCAL_06--mtrPanel>tbody>tr#__row9>td#__cell15{
+    vertical-align: top !important;
+}
+
+/* Style scroll dalam content */
+
+::-webkit-scrollbar {
+    width: 4px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+  /* =========================================================================== */
+
+.treeLogo{
+    border:0px !important;
+}
+
+/*Style wrapped text pada tiles*/
+.sapMGTSubHdrTxt>.sapMText, .sapMGTSubHdrTxt{
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+}
+/* =========================================================================== */
+
+/*Remove tiles offside click area*/
+.sapMGTContent{
+    height: 0px !important;
+}
+/* =========================================================================== */
+
+/* == calendar SCAL == */
+#idSCAL_06--calendar--Head-next{
+    visibility: hidden;
+}
+#idSCAL_06--calendar--Head-prev{
+    visibility: hidden;
+}
+/* =========================================================================== */
+
+/* Calendar PT01 */
+
+/* Memberikan pewarnaan tanggal libur */
+.idPT01_02--holidate{
+    /*background-color:#B00020; /*  ASLI  */
+    background-color:#ffcccc;
+}
+.idPT01_02--holidate2{  /* untuk warna kotak kecil pojok di hari libur */
+    background-color:#ff0000;
+}
+
+/* Calendar PT02 */
+
+/* Memberikan pewarnaan tanggal libur */
+.idPT02_02--holidate{
+    /* background-color: red; */
+    background-color:#ffcccc;
+}
+.idPT02_02--holidate2{  /* untuk warna kotak kecil pojok di hari libur */
+    background-color:#ff0000;
+}
+
+/* Calendar PT03 */
+
+/* Memberikan pewarnaan tanggal libur */
+.idPT03_02--holidate{
+    /* background-color: red; */
+    background-color:#ffcccc;
+}
+.idPT03_02--holidate2{  /* untuk warna kotak kecil pojok di hari libur */
+    background-color:#ff0000;
+}
+
+/* Report Finger - Radio Button */
+#idREPFING_01--rdbType-0,
+#idREPFING_01--rdbType-1,
+#idREPFING_01--rdbType-2,
+#idREPFING_01--rdbType-3,
+#idREPFING_01--rdbType-4{
+    height: 37px !important;
+}
+
+#idREPFING_01--rdbType-0{
+    top: 6px;
+}
+#idREPFING_01--rdbType-1{
+    top: 5px;
+}
+#idREPFING_01--rdbType-2{
+    top: 5px;
+}
+#idREPFING_01--rdbType-3{
+    top: 4px;
+}
+
+/* Report Overtime - Radio Button */
+#idREPOVE_01--rdbType-0,
+#idREPOVE_01--rdbType-1,
+#idREPOVE_01--rdbType-2,
+#idREPOVE_01--rdbType-3,
+#idREPOVE_01--rdbType-4{
+    height: 37px !important;
+}
+
+#idREPOVE_01--rdbType-0{
+    top: 6px;
+}
+#idREPOVE_01--rdbType-1{
+    top: 5px;
+}
+#idREPOVE_01--rdbType-2{
+    top: 5px;
+}
+#idREPOVE_01--rdbType-3{
+    top: 4px;
+}
+
+/* Report Overtime With Quota- Radio Button */
+#idREPOVEQ_01--rdbType-0,
+#idREPOVEQ_01--rdbType-1,
+#idREPOVEQ_01--rdbType-2,
+#idREPOVEQ_01--rdbType-3,
+#idREPOVEQ_01--rdbType-4{
+    height: 37px !important;
+}
+
+#idREPOVEQ_01--rdbType-0{
+    top: 6px;
+}
+#idREPOVEQ_01--rdbType-1{
+    top: 5px;
+}
+#idREPOVEQ_01--rdbType-2{
+    top: 5px;
+}
+#idREPOVEQ_01--rdbType-3{
+    top: 4px;
+}
+
+/* Report Leave - Radio Button */
+#idREPABS_01--rdbType-0,
+#idREPABS_01--rdbType-1,
+#idREPABS_01--rdbType-2,
+#idREPABS_01--rdbType-3,
+#idREPABS_01--rdbType-4{
+    height: 37px !important;
+}
+
+#idREPABS_01--rdbType-0{
+    top: 6px;
+}
+#idREPABS_01--rdbType-1{
+    top: 5px;
+}
+#idREPABS_01--rdbType-2{
+    top: 5px;
+}
+#idREPABS_01--rdbType-3{
+    top: 4px;
+}
+
+/* Report Leave Quota - Radio Button */
+#idREPABSQ_01--rdbType-0,
+#idREPABSQ_01--rdbType-1,
+#idREPABSQ_01--rdbType-2,
+#idREPABSQ_01--rdbType-3,
+#idREPABSQ_01--rdbType-4{
+    height: 37px !important;
+}
+
+#idREPABSQ_01--rdbType-0{
+    top: 6px;
+}
+#idREPABSQ_01--rdbType-1{
+    top: 5px;
+}
+#idREPABSQ_01--rdbType-2{
+    top: 5px;
+}
+#idREPABSQ_01--rdbType-3{
+    top: 4px;
+}
+
+/* Report Izin Keluar - Radio Button */
+#idREPEXIP_01--rdbType-0,
+#idREPEXIP_01--rdbType-1{
+    height: 37px !important;
+}
+
+#idREPEXIP_01--rdbType-0{
+    top: 6px;
+}
+#idREPEXIP_01--rdbType-1{
+    top: 5px;
+}
+#idREPEXIP_01--rdbType-0-label,
+#idREPEXIP_01--rdbType-1-label{
+    font-size: 13px !important;
+}
+
+/* Report REWSSHIFT */
+#idREWSSHIFT_01--rdbType-0,
+#idREWSSHIFT_01--rdbType-1,
+#idREWSSHIFT_01--rdbType-2{
+    height: 37px !important;
+}
+#idREWSSHIFT_01--rdbType-0-label,
+#idREWSSHIFT_01--rdbType-1-label,
+#idREWSSHIFT_01--rdbType-2-label{
+    font-size: 13px !important;
+}
+
+/* Report REWSSHIFT_USER */
+#idREWSSHIFT_USER_01--rdbType-0,
+#idREWSSHIFT_USER_01--rdbType-1,
+#idREWSSHIFT_USER_01--rdbType-2{
+    height: 37px !important;
+}
+#idREWSSHIFT_USER_01--rdbType-0-label,
+#idREWSSHIFT_USER_01--rdbType-1-label,
+#idREWSSHIFT_USER_01--rdbType-2-label{
+    font-size: 13px !important;
+}
+
+/* PPOCE, PPOME, PPOSE */
+
+/* [data-ppo="DelimAssign"]{
+    color: tomato;
+
+}
+
+[data-ppo="DelimObject"]{
+    color: royalblue;
+
+} */
+
+
+.PPO-DelimIndicator > span{
+    font-size: 22px;
+}
+
+/* .PPO-DelimAssign > span{
+    color: tomato;
+}
+
+.PPO-DelimObject > span{
+    color: royalblue;
+} */
+
+/* PT05 */
+.idPT05_01--colorRed{
+    /* background-color: #de3d37; */
+    background-color: #e65a5a;
+}
+
+/* REWSSHIFT */
+.idREWSSHIFT_02--colorSunday{
+    /* background-color: #de3d37; */
+    background-color: #FF0000; /*red;*/
+    font-weight: bold;
+}
+.idREWSSHIFT_02--colorTimeOff{
+    /* background-color: #de3d37; */
+    background-color: #FFFF00 /*yellow*/;
+    font-weight: bold;
+}
+.idREWSSHIFT_02--colorNationalHoliday{
+    /* background-color: #de3d37; */
+    background-color: #00B0F0 /*lightblue*/;
+    font-weight: bold;
+}
+.idREWSSHIFT_02--legendEventNone{
+    /* background-color: red; */
+    pointer-events: none !important
+}
+#idREWSSHIFT_02--txfELegend1-content{   /* colorSunday */
+    background-color: red !important;
+}
+#idREWSSHIFT_02--txfELegend2-content{   /* colorTimeOff */
+    background-color: yellow !important;
+}
+#idREWSSHIFT_02--txfELegend3-content{   /* colorNationalHoliday */
+    background-color: skyblue !important;
+}
+#idREWSSHIFT_USER_02--txfELegend1-content{   /* colorSunday */
+    background-color: red !important;
+}
+#idREWSSHIFT_USER_02--txfELegend3-content{   /* colorNationalHoliday */
+    background-color: skyblue !important;
+}
+
+/* Section PPO */
+/* PPOCE */
+#idPPOCE_01--tblIcon-sapUiTableRowHdrScr{
+    width: 1px!important;
+}
+#idPPOCE_01--tblIcon-selall{
+    width: 1px!important;
+}
+#idPPOCE_01--tblIcon-sapUiTableCtrlScr{
+    margin-left: 1px!important;
+}
+
+#idPPOCE_01--tblNavBar-sapUiTableRowHdrScr{
+    width: 1px!important;
+}
+#idPPOCE_01--tblNavBar-selall{
+    width: 1px!important;
+}
+#idPPOCE_01--tblNavBar-sapUiTableCtrlScr{
+    margin-left: 1px!important;
+}
+#idPPOCE_01--tblNavBar-header>tbody>tr>td{
+    position: relative;
+    right: 31px;
+}
+/* PPOME */
+#idPPOME_01--tblIcon-sapUiTableRowHdrScr{
+    width: 1px!important;
+}
+#idPPOME_01--tblIcon-selall{
+    width: 1px!important;
+}
+#idPPOME_01--tblIcon-sapUiTableCtrlScr{
+    margin-left: 1px!important;
+}
+
+#idPPOME_01--tblNavBar-sapUiTableRowHdrScr{
+    width: 1px!important;
+}
+#idPPOME_01--tblNavBar-selall{
+    width: 1px!important;
+}
+#idPPOME_01--tblNavBar-sapUiTableCtrlScr{
+    margin-left: 1px!important;
+}
+#idPPOME_01--tblNavBar-header>tbody>tr>td{
+    position: relative;
+    right: 31px;
+}
+/* PPOSE */
+#idPPOSE_01--tblIcon-sapUiTableRowHdrScr{
+    width: 1px!important;
+}
+#idPPOSE_01--tblIcon-selall{
+    width: 1px!important;
+}
+#idPPOSE_01--tblIcon-sapUiTableCtrlScr{
+    margin-left: 1px!important;
+}
+
+#idPPOSE_01--tblNavBar-sapUiTableRowHdrScr{
+    width: 1px!important;
+}
+#idPPOSE_01--tblNavBar-selall{
+    width: 1px!important;
+}
+#idPPOSE_01--tblNavBar-sapUiTableCtrlScr{
+    margin-left: 1px!important;
+}
+#idPPOSE_01--tblNavBar-header>tbody>tr>td{
+    position: relative;
+    right: 31px;
+}
+
+.paddingTop{
+    padding-top: 5px;
+}
+
+.paddingLeft{
+    padding-left: 10px;
+}
+
+.paddingRight{
+    padding-right: 10px;
+}
+
+.sapMSLIWithDescription>.sapMLIBContent>.sapMSLIDiv>.sapMSLIDescription{
+    padding-top: 0 !important;
+}
+/* LSO_PV00 Hide Selection table left coloumn*/
+#idLSO_PV00_01--tblIcon-sapUiTableRowHdrScr{
+    width: 1px!important;
+}
+#idLSO_PV00_01--tblIcon-selall{
+    width: 1px!important;
+}
+#idLSO_PV00_01--tblIcon-sapUiTableCtrlScr{
+    margin-left: 1px!important;
+}
+
+#idLSO_PV00_01--tblNavBar-sapUiTableRowHdrScr{
+    width: 1px!important;
+}
+#idLSO_PV00_01--tblNavBar-selall{
+    width: 1px!important;
+}
+#idLSO_PV00_01--tblNavBar-sapUiTableCtrlScr{
+    margin-left: 1px!important;
+}
+#idLSO_PV00_01--tblNavBar-header>tbody>tr>td{
+    position: relative;
+    right: 31px;
+}
+
+.maxHeight{
+    max-height: 200px !important;
+    max-width: 100% !important;
+    width: auto !important;
+}
+
+.idASPEA-lblHeader {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-weight: bolder;
+    font-size: 1.5rem !important;
+    display: block;
+    text-align: center !important;
+}
+.idASPEA-Column {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.idASPEA-clmnValTop {
+    padding-bottom: 6px;
+}
+.idASPEA-NoCompetencyGroup {
+    /* text-align: center !important; */
+    font-weight: bolder;
+    display: block;
+}
+.idASPEA-hiddenValue {
+    visibility: hidden;
+}
+
+.sapMDialogScroll {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* LSO_PSVR */
+/* Tree Table */
+table#idLSO_PSVR_01--trtb-table > tbody > tr > td {
+    border-bottom-color: white;
+}
+div#idLSO_PSVR_01--trtb-sapUiTableRowHdrScr > div > div {
+    border-bottom-color: white;
+}
+
+/* LSO_PSV2 */
+/* Tree Table */
+table#idLSO_PSV2_01--trtbMain-table > tbody > tr > td {
+    border-bottom-color: white;
+}
+div#idLSO_PSV2_01--trtbMain-sapUiTableRowHdrScr > div > div {
+    border-bottom-color: white;
+}
+
+/* PBAP Card - Masa Kerja & Usia */
+[data-masakerja-style = "PBAP-MasaKerja-Hijau"]{
+    color: white;
+    font-weight: bolder;
+    background-color:green;
+}
+
+[data-masakerja-style = "PBAP-MasaKerja-Kuning"]{
+    color: white;
+    font-weight: bolder;
+    background-color: yellow;
+}
+
+[data-masakerja-style = "PBAP-MasaKerja-Merah"]{
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+}
+
+[data-usia-style = "PBAP-Usia-Hijau"]{
+    color: white;
+    font-weight: bolder;
+    background-color:green;
+}
+
+[data-usia-style = "PBAP-Usia-Kuning"]{
+    color: white;
+    font-weight: bolder;
+    background-color: yellow;
+}
+
+[data-usia-style = "PBAP-Usia-Merah"]{
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+}
+/* Chart PPOSE */
+.orgchart .ppo-chart .title{
+    border: none;
+    background-color: #27CCBC;
+    width: 250px;
+}
+
+.orgchart .ppo-chart .content-position{
+    border: none;
+    background-color: #FCD462;
+    color: white;
+    border-radius: 0 0 0 0;
+}
+.orgchart .ppo-chart .content-person{
+    background-color: #EEEFEE;
+    border: none;
+    border-radius: 0 0 0 0;
+    text-align: left;
+}
+
+.overflowPanel {
+    overflow: auto !important;
+    width: 75% !important;
+}
+
+.imghome img {
+    width: 80% !important;
+}
+
+.containerhome{
+    margin-top: 100px;
+}
+
+.btnStart{
+    background-color: #2D9CDB;
+    min-height: 50px;
+    color: white;
+    min-width: 300px;
+    border-radius: 5px;
+}
+
+
+.button1 .sapMBtnInner {
+    background-color: #2D9CDB;
+    color: white;
+    min-width: 300px;
+    border-radius: 5px;
+    border: none;
+    vertical-align: middle;
+    padding-top: 5px;
+
+}
+.mtr1{
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+    
+}
+
+.mtr2{
+    margin: 20px 0px !important;
+    
+}
+
+.tf .sapMInputBaseContentWrapper{
+    outline: none !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(10, 15, 22) !important;
+}
+.label{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+.labelp3.sapUiLbl.sapUiLblNowrap  {
+    white-space: pre-wrap !important;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.labeleng{
+    font-size: 14px;
+    color: #6a6d70;
+    font-style: italic;
+}
+
+.panel{
+    height: auto !important;
+}
+
+.sapMTitle  {
+    text-align: center !important;
+    display: block  !important;
+    margin: 0 auto ;
+}
+
+.buttonDialog{
+    display: block  !important;
+    margin: 10px auto  !important;
+}
+.buttonDialog2{
+    display: block  !important;
+    margin: 10px auto  !important;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.labelDialog{
+    text-align: center !important;
+    display: block !important;}
+
+.displayblock{
+    display: block;
+}
+
+.buttoncoba{
+    width: 100%;
+}
+
+
+.buttonexecute .sapMBtnInner{
+    background-color: #0854a0 !important;
+    color: white;
+    border: none;
+    vertical-align: middle;
+    border-radius: none;
+}
+
+.btn-primary {
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 100px;
+}

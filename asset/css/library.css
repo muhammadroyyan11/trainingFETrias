@@ -1,0 +1,44 @@
+/* Custom CSS for Library Element */
+
+/* LABEL */
+.zstyle-label-toolbar{
+    position: relative;
+    top: 8px;
+}
+
+.sapMListTblCell {
+    border-left: 1px solid #ccc;
+}
+
+#chart-container {
+    position: relative;
+    height: 420px;
+    border: 1px solid #aaa;
+    margin: 0.5rem;
+    overflow: auto;
+    text-align: center;
+  }
+
+.orgchart { background: #fff; }
+
+.HeaderCard {
+    height: 110px;
+}
+
+/* Searchbar */
+/* li.sapMSuLI.sapMSelectListItem.sapMSelectListItemBase.sapMSelectListItemBaseHoverable{
+    color: transparent;
+}
+
+li.sapMSuLI.sapMSelectListItem.sapMSelectListItemBase.sapMSelectListItemBaseHoverable > i{
+    color: black;
+} */
+
+/* .orgchart .node .content {
+    text-align:center !important;
+    height:auto!important;
+    word-wrap: break-word!important;
+    word-break: normal!important;
+    white-space: normal!important;
+    display: block!important;
+} */

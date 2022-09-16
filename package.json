@@ -1,0 +1,35 @@
+{
+  "name": "projectapp",
+  "version": "1.0.0",
+  "description": "Pipelining for CI/CD",
+  "main": "index.js",
+  "dependencies": {
+    "idb": "^5.0.4",
+    "inquirer": "^7.3.2",
+    "javascript-obfuscator": "^2.15.4",
+    "del": "^5.1.0",
+    "klaw": "^3.0.0",
+    "mkdirp": "^1.0.4",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "script-obfuscate": "node obfuscateGen.js",
+    "obfuscate-gen": "env NODE_ENV=DEV npm run script-obfuscate",
+    "generator": "node generator.js",
+    "env-generator": "node env-generator.js",
+    "check-install": "npm install",
+    "info": "echo Updating dependency before publishing...",
+    "beforepublish": "run-s info check-install",
+    "script-publish": "node publish.js",
+    "publish": "run-s \"publish:* {@}\" --",
+    "publish:dev": "run-s \"publish:dev:* {@}\" --",
+    "publish:dev:dev": "env NODE_ENV=dev1 npm run script-publish",
+    "publish:prd": "run-s \"publish:prd:* {@}\" --"
+  },
+  "author": "",
+  "license": "ISC"
+}

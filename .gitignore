@@ -1,0 +1,7 @@
+node_modules
+resources
+.vscode
+.env
+publish/*
+*.exe
+debug.log

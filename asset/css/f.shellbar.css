@@ -1,0 +1,177 @@
+/* Expanding sidenavigation */
+.sapTntSideNavigation {
+    width: 25rem;
+}
+
+.sapTntNavLI{
+    width: unset !important;
+}
+/* Un-Expanding sidenavigtion */
+.sapTntSideNavigation.sapTntSideNavigationNotExpandedWidth {
+    /* width: 3rem; */
+}
+/* NOTE if you want to hide mini-sidebar icon in the left */
+.sapTntSideNavigationNotExpandedWidth.sapTntSideNavigationNotExpanded{
+    /* width: 0px; */
+}
+.sapTntToolPageMain{
+    /* padding-left: 0rem; */
+}
+
+/* Title Bar */
+.sapMBarPH.sapMBarContainer{
+    /* height: 30.5px !important; */
+}
+/* Title Only */
+.Shellbar-Title{
+    /* font-weight: 900; */
+}
+
+/* Second Title */
+.Second-Title{
+    /* padding-left: 10px; */
+}
+
+/* Shellbar */
+.Shellbar-Overflow{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+/* Shellbar */
+.Shellbar-Main{
+    /* padding-left: 5px !important; */
+    /* padding-right: 5px !important; */
+    background: linear-gradient(130deg, #395c78 5%, #3e617d 25%, #446985 10%, #446985 25%, #3e617d 70%, #33546e 15%);
+    color: white !important;
+}
+
+/* Footer tapi diatas */
+/* NOTE in theme fiori_3 bottom : 623px and another theme bottom : 619px */
+footer>ul>li{
+    /* bottom: 527px ditambah 99 karena 1 = 33 623 - 611 = 12 */
+    /* bottom: 50% */
+    /* position: relative; */
+    /* bottom: 619px; */
+}
+ul.sapTntNavLIGroupItems{
+    /* padding-top: 66px !important; */
+}
+footer>ul{
+    /* height:0px !important; */
+}
+
+/* Shellbar Title */
+.sapMTitle.sapMTitleStyleH6.sapMTitleNoWrap.sapUiSelectable.sapMTitleTB.sapFShellBarPrimaryTitle.sapFShellBarItem.sapMBarChild{
+    /* color: white; */
+}
+.Title-Shellbar{
+    font-weight: bold;
+}
+
+.TcodeTitle-Shellbar{
+    font-size: 12px;
+}
+
+/* Shellbar Icon */
+.sapMImg.sapMPointer.sapMImgFocusable.sapFShellBarHomeIcon.sapFShellBarItem.sapMBarChild{
+    width: 20px;
+    height: 20px;
+}
+
+/* Shellbar Body */
+.sapFShellBar{
+    background: linear-gradient(130deg, #395c78 5%, #3e617d 25%, #446985 10%, #446985 25%, #3e617d 70%, #33546e 15%);
+    color: white !important;
+}
+#mtxShellbar2 > tbody > tr > td {
+	padding-bottom: 0px;
+}
+
+/* Shellbar Icon */
+.sapUiIcon.sapUiIconMirrorInRTL.sapMBtnCustomIcon.sapMBtnIcon.sapMBtnIconLeft{
+    /* color: white; */
+}
+.sapUiIcon.sapMBtnCustomIcon.sapMBtnIcon.sapMBtnIconLeft{
+    /* color: #446985 !important; */
+}
+
+/* Sidebar Icon */
+.sapTntNavLIItem>.sapUiIcon{
+    color: #7f888f;
+}
+/* Sidebar Text */
+.sapTntNavLIItem>.sapMText{
+    /* color: black; */
+}
+
+/* *Sidebar Second Title */
+.sapFShellBarSecondTitle{
+    font-size: 12px !important;
+}
+/* ------------------------------------------------ */
+/* Old f.shellbar Styling */
+/* Sub-Header Styling
+.sapUiSizeCompact .sapTntToolPageHeader {
+    height: 4.5rem;
+} */
+
+/* Shellbar styling */
+/* div#__toolbar1 {
+    padding: 0rem !important;
+}
+
+#__header0{
+    padding: 0rem !important;
+}
+
+#__layout1 > tbody > tr > td {
+    padding: 0rem !important;
+} */
+
+/* Sidebar Styling */
+/* header{
+    border-bottom: 1px solid #d9d9d9
+}
+.Sidebar-Main{
+    width: 25rem;
+}
+.sapTntNavLI{
+    width: unset !important;
+}
+
+#__page1-header{
+    height: 60px;
+}
+
+#__header0{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 64px;
+}
+
+#__toolbar1{
+    padding-top: 1px;
+    /* padding-bottom: 1px; */
+    /* padding-left: 0px;
+    padding-right: 5px; */
+    /* height: 38px; */
+/* }
+
+#__bar1{
+    /* height: 26px; */
+    /* height: 32px; */
+/* } */
+
+/* #__bar0{
+    height: 38px;
+} */
+
+/* #__cell10{
+    padding-right: 0px;
+    padding-bottom: 0px;
+} */
+
+/*#__cell11{
+    padding-right: 0px;
+}  */
