@@ -55,7 +55,7 @@ sap.ui.jsview("projectapp.System.Login.Home1", {
         var option = SAPUI.ComboBox(this.createId("option"), "", "Pilih Status")
 
         var labelArea = SAPUI.Label(this.createId("labelArea"), "Ceritakan Tentang Skripsimu").addStyleClass("label");
-        var TextArea = SAPUI.TextArea(this.createId("TxtArea", "Ceritakan Tentang Skripsimu", 3, 2))
+        var TextArea = SAPUI.TextArea(this.createId("txtArea"), "", "", 3, 2)
         // var optionTwo = SAP.ComboBox(this.createId("optTwo"), "", "Belum Kawin")
         var buttonSubmit = SAPUI.Button(this.createId("buttonSbt"), "Generate My Bio");
 
@@ -100,6 +100,24 @@ sap.ui.jsview("projectapp.System.Login.Home1", {
         var lblSibling = SAPUI.Label(this.createId("lblSibling"), "")
         var lblTbl = SAPUI.Label(this.createId("lblTbl"), "")
         var lblStatus = SAPUI.Label(this.createId("lblStatus"), "")
+        var lblKerja = SAPUI.Label(this.createId("lblKerja"), "")
+        var lblWaktu = SAPUI.Label(this.createId("lblWaktu"), "")
+        var lblSkripsi = SAPUI.Label(this.createId("lblSkripsi"), "")
+        var lblTrias = SAPUI.Label(this.createId("lblTrias"), "")
+        var lblSingkat = SAPUI.Label(this.createId("lblSingkat"), "")
+        var lblRegard = SAPUI.Label(this.createId("lblRegard"), "").addStyleClass("label")
+        var lblRegardName = SAPUI.Label(this.createId("lblRegardName"), "").addStyleClass("label")
+
+
+        var table3 = SAPUI.Table(this.createId("tabel"), "auto", 4, "none", "paginator", true, true)
+        var column1b = SAPUI.Column("Jenjang Pendidikan","TextView","jenjang","8%","Left","Left",this.createId("column1b"));
+        var column2b = SAPUI.Column("Sekolah","TextView","sekolah","8%","Left","Left");
+        var column3b = SAPUI.Column("Tahun Masuk","TextView","in","8%","Left","Left");
+        var column4b = SAPUI.Column("Tahun Keluar","TextView","out","8%","Left","Left");
+        table3.addColumn(column1b)
+        table3.addColumn(column2b)
+        table3.addColumn(column3b)
+        table3.addColumn(column4b)
 
         mtrResult.createRow(labelRlt)
         mtrResult.createRow(lblNama)
@@ -108,6 +126,21 @@ sap.ui.jsview("projectapp.System.Login.Home1", {
         mtrResult.createRow(lblStatus)
         mtrResult.createRow("")
         mtrResult.createRow(lblTbl)
+        mtrResult.createRow(table3)
+        mtrResult.createRow("")
+        mtrResult.createRow(lblKerja)
+        mtrResult.createRow(lblWaktu)
+        mtrResult.createRow(lblSkripsi)
+        mtrResult.createRow("")
+        mtrResult.createRow(lblTrias)
+        mtrResult.createRow(lblSingkat)
+        mtrResult.createRow("")
+        mtrResult.createRow("")
+        mtrResult.createRow(lblRegard)
+        mtrResult.createRow(lblRegardName)
+        
+
+        
          //END home 2 (Result)
         
         tab1.addContent(mtr1)
@@ -156,6 +189,7 @@ sap.ui.jsview("projectapp.System.Login.Home1", {
                 oController.onVisible()
             }
         )
+        
 
         // newHr.addContent(mtr1)
 
