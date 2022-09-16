@@ -105,9 +105,9 @@ sap.ui.jsview("projectapp.System.Login.Home1", {
         mtrResult.createRow(lblNama)
         mtrResult.createRow(lblLahir)
         mtrResult.createRow(lblSibling)
+        mtrResult.createRow(lblStatus)
         mtrResult.createRow("")
         mtrResult.createRow(lblTbl)
-        mtrResult.createRow(lblStatus)
          //END home 2 (Result)
         
         tab1.addContent(mtr1)

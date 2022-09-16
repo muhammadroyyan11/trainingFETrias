@@ -91,7 +91,7 @@ sap.ui.define([
                 lblSibling.setText("Aku merupakan anak pertama dan terakhir dari orang tuaku.")
             }
 
-            lblStatus.setText("Untuk statusku saat ini yaiut " + option)
+            lblStatus.setText("Untuk statusku saat ini yaiu " + option)
         }
     })    
 })
